@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BdSofts_WebApi_Auth_Blood_DBModelStoreContainer" CdmEntityContainer="BdSofts_WebApi_Auth_Blood_DBEntities">
+    <EntitySetMapping Name="Blood_UserInfo">
+      <EntityTypeMapping TypeName="BdSofts_WebApi_Auth_Blood_DBModel.Blood_UserInfo">
+        <MappingFragment StoreEntitySet="Blood_UserInfo">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

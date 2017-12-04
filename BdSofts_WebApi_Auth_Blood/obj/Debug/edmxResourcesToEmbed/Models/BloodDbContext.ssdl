@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BdSofts_WebApi_Auth_Blood_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Blood_UserInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="50" />
+    <Property Name="Pass" Type="nchar" MaxLength="200" />
+    <Property Name="Url" Type="nchar" MaxLength="500" />
+    <Property Name="DateAdded" Type="datetime" />
+    <Property Name="AddedBy" Type="nchar" MaxLength="10" />
+    <Property Name="DateUpdated" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="BdSofts_WebApi_Auth_Blood_DBModelStoreContainer">
+    <EntitySet Name="Blood_UserInfo" EntityType="Self.Blood_UserInfo" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
