@@ -22,6 +22,8 @@ namespace BdSofts_WebApi_Auth_Blood.Controllers
             return db.Blood_UserInfo;
         }
 
+
+
         // GET: api/Login/5
         //[ResponseType(typeof(Blood_UserInfo))]
         //public IHttpActionResult GetBlood_UserInfo(int id)
